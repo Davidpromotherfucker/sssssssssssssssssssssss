@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "b!"
+var prefix = "M"
 
 
 
@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "b!";
+  var prefix = "M";
 
   client.on("message", message => {
   
@@ -99,11 +99,9 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Help|هيلب
 
-       b!obc | لأرسال برود كاست للكل
+       Mobc | لأرسال برود كاست للكل
 
-       b!bc  |  لأرسال برود كاست للأونلاين
-
-       b!invite | لدعوة البوت الي سيرفرك
+       Mbc  |  لأرسال برود كاست للأونلاين
 
        b!support | سيرفر السبورت** `)
    message.author.sendEmbed(embed)
@@ -160,7 +158,7 @@ m.sendMessage(args)
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("b!help | b!invite",{type: 'WATCHING'});
+          client.user.setActivity("Myths Brodcast",{type: 'WATCHING'});
   
   });
 
